@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>พอเพียง | ติดต่อเรา</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Prompt:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo">พอเพียง✿PORPIANG</a>
+    <nav>
+      <ul>
+        <li><a href="index.html">หน้าแรก</a></li>
+        <li><a href="services.html">บริการ</a></li>
+        <li><a href="work.html">ผลงาน</a></li>
+        <li><a href="process.html">ขั้นตอน</a></li>
+        <li><a href="contact.html" class="active">ติดต่อเรา</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="heading-xl">GET IN TOUCH</h1>
+    <div class="card" style="max-width: 650px; margin: 0 auto; background: var(--soft-pink);">
+      <form onsubmit="event.preventDefault(); alert('ขอบคุณที่สนใจบริการร้านพอเพียง! เราจะติดต่อกลับโดยเร็วที่สุด');">
+        <div class="form-group">
+          <label>ชื่อผู้ติดต่อ</label>
+          <input type="text" placeholder="คุณสมชาย ดอกไม้ดี" required>
+        </div>
+        <div class="form-group">
+          <label>อีเมล หรือ เบอร์โทรศัพท์</label>
+          <input type="text" placeholder="hello@example.com / 081-234-5678" required>
+        </div>
+        <div class="form-group">
+          <label>รายละเอียดที่ต้องการสอบถาม/สั่งซื้อ</label>
+          <textarea rows="4" placeholder="ระบุประเภทดอกไม้ โทนสี หรือรูปแบบงานที่ต้องการ..." required></textarea>
+        </div>
+        <button type="submit" class="btn" style="width: 100%; margin-top: 1rem; background: var(--electric-blue); color: var(--white);">ส่งข้อความหาเรา ➔</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 PORPIANG FLOWER SHOP. ALL RIGHTS RESERVED.</p>
+  </footer>
+</body>
+</html>
